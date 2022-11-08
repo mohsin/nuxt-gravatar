@@ -4,7 +4,7 @@ import md5 from 'md5';
 
 const props = defineProps({
     alt:        { type: String, default: 'Avatar' },
-    email:      { type: String, required: true },
+    email:      { type: String },
     hash:       { type: String },
     size:       { type: Number },
     defaultImg: { type: String, default: 'retro' },

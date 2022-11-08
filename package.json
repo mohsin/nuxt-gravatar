@@ -1,6 +1,6 @@
 {
   "name": "nuxt-gravatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gravatar Component for NuxtJs v3",
   "main": "src/index.js",
   "repository": "https://github.com/mohsin/nuxt-gravatar",
