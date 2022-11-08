@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed } from '@vue/reactivity';
-import md5 from 'md5';
+import { computed } from '@vue/reactivity'
+import md5 from 'md5'
 
 const props = defineProps({
     alt:        { type: String, default: 'Avatar' },
@@ -18,8 +18,8 @@ const url = computed(() => {
         `?d=${props.defaultImg}`,
         props.size ? `&s=${props.size}`: '',
         props.rating ?`&r=${props.rating}` : ''
-    ];
-    return img.join('');
+    ]
+    return img.join('')
 })
 </script>
 

@@ -1,5 +1,5 @@
-import { defineNuxtModule } from '@nuxt/kit';
-import { fileURLToPath } from 'node:url';
+import { defineNuxtModule } from '@nuxt/kit'
+import { fileURLToPath } from 'node:url'
 
 export default defineNuxtModule({
   hooks: {

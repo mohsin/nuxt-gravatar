@@ -6,9 +6,21 @@
   "repository": "https://github.com/mohsin/nuxt-gravatar",
   "author": "Saifur Rahman Mohsin",
   "license": "GPL-2.0",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.12",
     "@vue/reactivity": "^3.2.41",
     "md5": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitest/coverage-c8": "^0.25.0",
+    "@vue/test-utils": "^2.2.1",
+    "jsdom": "^20.0.2",
+    "vitest": "^0.25.0",
+    "vue": "^3.2.41"
   }
 }
