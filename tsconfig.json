@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "./dist/*"
+  ]
+}
