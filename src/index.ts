@@ -2,6 +2,9 @@ import { fileURLToPath } from 'node:url'
 import { defineNuxtModule } from '@nuxt/kit'
 
 export default defineNuxtModule({
+  meta: {
+    name: 'mohsin/nuxt-gravatar'
+  },
   hooks: {
     'components:dirs'(dirs) {
       dirs.push({
@@ -10,3 +13,7 @@ export default defineNuxtModule({
     }
   }
 })
+
+declare module '@nuxt/schema' {
+  interface NuxtConfig {}
+}

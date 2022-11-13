@@ -8,9 +8,9 @@ Gravatar component for NuxtJs v3 applications.
 ## Installation
 
 ```
-yarn add nuxt-gravatar
+pnpm add nuxt-gravatar
 ```
-OR `npm install nuxt-gravatar`, or `pnpm install nuxt-gravatar`, depending on your project's package manager.
+OR `npm install nuxt-gravatar`, or `yarn add nuxt-gravatar`, depending on your project's package manager.
 
 ## Usage
 
