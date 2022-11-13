@@ -1,6 +1,6 @@
 {
   "name": "nuxt-gravatar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gravatar Component for NuxtJs",
   "repository": "https://github.com/mohsin/nuxt-gravatar",
   "author": "Saifur Rahman Mohsin",
@@ -22,12 +22,12 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.0.0-rc.13",
-    "@nuxt/schema": "^3.0.0-rc.13",
     "@vue/reactivity": "^3.2.41",
     "md5": "^2.3.0"
   },
   "devDependencies": {
+    "@nuxt/kit": "^3.0.0-rc.13",
+    "@nuxt/schema": "^3.0.0-rc.13",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitest/coverage-c8": "^0.25.0",
     "@vue/test-utils": "^2.2.1",
