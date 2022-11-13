@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from '@vue/reactivity'
-import md5 from 'md5'
+
+const md5 = require('md5')
 
 const props = defineProps({
     alt:        { type: String, default: 'Avatar' },
