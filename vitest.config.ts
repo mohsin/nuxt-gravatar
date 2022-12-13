@@ -10,7 +10,7 @@ export default defineConfig({
             inline: ['@nuxt/test-utils-edge'],
         },
         coverage: {
-            reporter: ['text', 'html'],
+            reporter: ['html', 'lcov'],
         }
     },
 })
