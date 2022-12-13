@@ -2,8 +2,10 @@
 
 Gravatar component for NuxtJs v3 applications.
 
-**[DEMO](https://imoz.in)**
+![Tests Status](https://github.com/mohsin/nuxt-gravatar/actions/workflows/tests.yml/badge.svg)
+[![Demo Deploy Status](https://api.netlify.com/api/v1/badges/43b8cbdc-b0ae-40b0-8399-1cc9ad414831/deploy-status)](https://imoz.in)
 
+**[DEMO](https://imoz.in)**
 
 ## Installation
 
